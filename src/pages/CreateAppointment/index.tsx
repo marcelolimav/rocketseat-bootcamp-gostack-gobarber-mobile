@@ -98,8 +98,6 @@ const CreateAppointment: React.FC = () => {
   }, []);
 
   const handleDataChange = useCallback((event: any, date: Date | undefined) => {
-    console.log('hdadshh');
-
     if (Platform.OS === 'android') {
       setShowDatePicket(false);
     }
